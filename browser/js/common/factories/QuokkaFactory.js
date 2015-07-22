@@ -1,7 +1,7 @@
 app.factory('QuokkaFactory', function() {
     return {
         moveQuokka: function() {
-            $('body').keydown(function(event) {
+            $('body').keyup(function(event) {
                 console.log(event.keyCode);
                 if (event.keyCode == 37) { //left
                     console.log('hit left button, yo');
