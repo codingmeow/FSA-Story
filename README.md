@@ -1,2 +1,2 @@
 # FSA-Story
-Life of an Fullstack Academy Student
+Life of a Fullstack Academy Student
