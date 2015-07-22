@@ -7,20 +7,20 @@ app.directive('navbar', function($rootScope, AuthService, AUTH_EVENTS, $state) {
         link: function(scope) {
 
             scope.items = [{
-                label: 'Coffee Maker',
-                state: 'home'
-            }, {
-                label: 'Quincy',
-                state: 'about'
-            }
-            // , {
-            //     label: 'Documentation',
-            //     state: 'docs'
-            // }, {
-            //     label: 'Members Only',
-            //     state: 'membersOnly',
-            //     auth: true
-            // }
+                    label: 'Coffee Maker',
+                    state: 'home'
+                }, {
+                    label: 'Pusheen Gangnam Style',
+                    state: 'about'
+                }
+                // , {
+                //     label: 'Documentation',
+                //     state: 'docs'
+                // }, {
+                //     label: 'Members Only',
+                //     state: 'membersOnly',
+                //     auth: true
+                // }
             ];
 
             scope.user = null;

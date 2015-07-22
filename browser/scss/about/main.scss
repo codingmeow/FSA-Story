@@ -39,20 +39,23 @@
 
 .quincy {
   border: 5px solid black;
+  margin-left: -300px;
   height: 833px;
-  width: 1200px;
+  width: 1800px;
   padding: 0;
-  background-image: url('http://img03.deviantart.net/6e42/i/2012/318/1/8/sunny_forest_background_by_burtn-d5kyxxx.jpg');
+  background-image: url('http://files.gamebanana.com/img/ss/guis/5064cd3341404.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 #quokka {
   img {
     float: left;
-    width: 10%;
+    width: 20%;
     position: fixed;
-    bottom: 0%;
-    right: 65%;
-    left: 45%;
-    top:83%;
+    bottom: 6%;
+    right: 45%;
+    left: 55%;
+    top: 60%;
   }
 }
