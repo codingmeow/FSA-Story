@@ -9,8 +9,8 @@ app.config(function($stateProvider) {
 
 });
 
-app.controller('AboutController', function($scope, SnapFactory) {
+app.controller('AboutController', function($scope, QuokkaFactory) {
 
-    SnapFactory.draggableQuincy();
+    QuokkaFactory.moveQuokka();
 
 });

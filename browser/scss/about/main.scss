@@ -1,4 +1,4 @@
-#about {
+/*#about {
 
   margin: 0 auto;
   width: 90%;
@@ -35,4 +35,16 @@
     }
   }
 
+}*/
+
+#quokka {
+  img {
+    float: left;
+    width: 10%;
+    position: fixed;
+    bottom: 0%;
+    right: 65%;
+    left: 45%;
+    top:83%;
+  }
 }
