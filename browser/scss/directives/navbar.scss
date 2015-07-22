@@ -25,11 +25,11 @@ navbar {
     cursor: pointer;
     transition: color 0.2s;
     &.active {
-      color: darken(#f31214, 10%);
+      color: darken(#B4D6DB, 10%);
     }
     &:hover {
       background: none;
-      color: #f31214;
+      color: #B4D6DB;
     }
     &:focus {
       background: none;

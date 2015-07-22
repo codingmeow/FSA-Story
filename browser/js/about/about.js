@@ -9,8 +9,8 @@ app.config(function($stateProvider) {
 
 });
 
-app.controller('AboutController', function($scope, QuokkaFactory) {
+app.controller('AboutController', function($scope, PusheenFactory) {
 
-    QuokkaFactory.moveQuokka();
+    PusheenFactory.movePusheen();
 
 });
